@@ -10,14 +10,16 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const module_1 = require("magnet-core/module");
 const redirectHttps = require("redirect-https");
-class MagnetPrimus extends module_1.Module {
-    get moduleName() { return 'redirect_https'; }
-    get defaultConfig() { return __dirname; }
+class MagnetRedirectHttps extends module_1.Module {
+    init() {
+        this.moduleName = 'redirect_https';
+        this.defaultConfig = __dirname;
+    }
     setup() {
         return __awaiter(this, void 0, void 0, function* () {
             this.app.config.http.wrappers.push(redirectHttps.bind(null, this.config));
         });
     }
 }
-exports.default = MagnetPrimus;
+exports.default = MagnetRedirectHttps;
 //# sourceMappingURL=index.js.map
