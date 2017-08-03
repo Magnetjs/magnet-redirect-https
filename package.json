@@ -25,15 +25,15 @@
     "dist": "npm run build && npm publish"
   },
   "dependencies": {
-    "magnet-core": "^3.9.0",
-    "redirect-https": "^1.1.1"
+    "magnet-core": "^4.0.1",
+    "redirect-https": "^1.1.4"
   },
   "devDependencies": {
     "fly": "^2.0.6",
     "fly-clear": "^1.0.1",
     "fly-esnext": "^2.0.1",
     "fly-flatten": "^1.0.1",
-    "fly-typescript": "^1.1.0",
+    "fly-typescript": "^1.1.1",
     "fly-watch": "^1.1.1"
   },
   "engines": {
