@@ -2,14 +2,6 @@
 # yarn lockfile v1
 
 
-"@types/lodash@^4.14.52":
-  version "4.14.63"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.63.tgz#5ac475f55bfdc62bc88c4239dbc482f2f3bead93"
-
-"@types/node@^7.0.5":
-  version "7.0.16"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.16.tgz#e3440e3ce4d4931616ac418cc4dc16cd94b80092"
-
 abbrev@1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.0.tgz#d0554c2256636e2f56e7c2e5ad183f859428d81f"
@@ -138,9 +130,9 @@ buffer-shims@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/buffer-shims/-/buffer-shims-1.0.0.tgz#9978ce317388c649ad8793028c3477ef044a8b51"
 
-bunyan@^1.8.5:
-  version "1.8.10"
-  resolved "https://registry.yarnpkg.com/bunyan/-/bunyan-1.8.10.tgz#201fedd26c7080b632f416072f53a90b9a52981c"
+bunyan@^1.8.12:
+  version "1.8.12"
+  resolved "https://registry.yarnpkg.com/bunyan/-/bunyan-1.8.12.tgz#f150f0f6748abdd72aeae84f04403be2ef113797"
   optionalDependencies:
     dtrace-provider "~0.8"
     moment "^2.10.6"
@@ -300,9 +292,9 @@ fly-flatten@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/fly-flatten/-/fly-flatten-1.0.1.tgz#f4d1c73d4c31d3e3c492336a0b265b405ceb1866"
 
-fly-typescript@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/fly-typescript/-/fly-typescript-1.1.0.tgz#159ea6c5ff5bfb935fedbc60d23a90d3dc89ea7b"
+fly-typescript@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/fly-typescript/-/fly-typescript-1.1.1.tgz#82ff4bac8cff46a34a2558c7dd80b067ba8c1e99"
   dependencies:
     typescript "^2.2.1"
 
@@ -345,9 +337,9 @@ form-data@~2.1.1:
     combined-stream "^1.0.5"
     mime-types "^2.1.12"
 
-fs-extra@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-3.0.0.tgz#244e0c4b0b8818f54040ec049d8a2bddc1202861"
+fs-extra@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-4.0.1.tgz#7fc0c6c8957f983f57f306a24e5b9ddd8d0dd880"
   dependencies:
     graceful-fs "^4.1.2"
     jsonfile "^3.0.0"
@@ -614,18 +606,15 @@ lodash@^4.17.4:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
-magnet-core@^3.9.0:
-  version "3.9.0"
-  resolved "https://registry.yarnpkg.com/magnet-core/-/magnet-core-3.9.0.tgz#bc7e61534f85023da52ba36ef53d02ac3c942c13"
+magnet-core@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/magnet-core/-/magnet-core-4.0.1.tgz#050c68e9c42b877318f7d0c8312ce5d6d9927250"
   dependencies:
-    "@types/lodash" "^4.14.52"
-    "@types/node" "^7.0.5"
     bluebird "^3.4.7"
-    bunyan "^1.8.5"
-    fs-extra "^3.0.0"
+    bunyan "^1.8.12"
+    fs-extra "^4.0.1"
     lodash "^4.17.4"
     parent-require "^1.0.0"
-    typescript "^2.3.2"
 
 micromatch@^2.1.5:
   version "2.3.11"
@@ -849,9 +838,9 @@ readdirp@^2.0.0:
     readable-stream "^2.0.2"
     set-immediate-shim "^1.0.1"
 
-redirect-https@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/redirect-https/-/redirect-https-1.1.1.tgz#5cb28f8c7428b9594cf20d8eda468041f72c90f3"
+redirect-https@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/redirect-https/-/redirect-https-1.1.4.tgz#aaa1fc72ac51623a5c49e80425051fea43bcee32"
   dependencies:
     escape-html "^1.0.2"
 
@@ -1027,7 +1016,7 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
 
-typescript@^2.2.1, typescript@^2.3.2:
+typescript@^2.2.1:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.3.2.tgz#f0f045e196f69a72f06b25fd3bd39d01c3ce9984"
 
